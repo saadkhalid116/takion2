@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Section Styling */
+.main-section {
+    background-color: #fed73c; /* Adjusted yellow color */
+    height: 100vh; /* Set height to 90% of the viewport height */
+    display: flex; /* Aligns content vertically and horizontally */
+    align-items: center; /* Centers content vertically */
+    color: black;
+}
+
+.flag-icon {
+    width: 50px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    margin: 20px 0;
+}
+
+.small-note {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.right-image {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Navbar Customizations */
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-light {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Style for the image button */
+.btn-image {
+    width: auto; /* Adjust as needed */
+    height: 60px; /* Set the height for the image button */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    display: inline-block;
+}
+
+
+/* Features Section */
+.features-section {
+    background-color: #fff;
+    color: black;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    color: #555;
+}
+
+.feature-item {
+    padding: 20px;
+}
+
+.feature-icon {
+    width: 70px;
+}
+
+.feature-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Blue and Yellow Columns Section */
+.columns-section .blue-column {
+    background-color: #abe7ff;
+    color: black;
+}
+
+.columns-section .yellow-column {
+    background-color: #fed73c;
+    color: black;
+}
+
+.column-content {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.column-icon {
+    width: 60px;
+}
+
+.column-title {
+    font-size: 1.25rem;
+    margin: 20px 0;
+}
